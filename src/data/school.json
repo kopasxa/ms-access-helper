@@ -1,0 +1,30 @@
+{
+  "tableName": "Учні",
+  "columns": [
+    { "name": "id", "type": "number", "label": "ID", "isKey": true },
+    { "name": "lastName", "type": "text", "label": "Прізвище" },
+    { "name": "firstName", "type": "text", "label": "Імʼя" },
+    { "name": "class", "type": "text", "label": "Клас" },
+    { "name": "math", "type": "number", "label": "Математика" },
+    { "name": "ukrMova", "type": "number", "label": "Укр. мова" },
+    { "name": "informatics", "type": "number", "label": "Інформатика" },
+    { "name": "city", "type": "text", "label": "Місто" }
+  ],
+  "rows": [
+    { "id": 1, "lastName": "Шевченко", "firstName": "Олександр", "class": "9-А", "math": 10, "ukrMova": 9, "informatics": 11, "city": "Київ" },
+    { "id": 2, "lastName": "Коваленко", "firstName": "Марія", "class": "9-А", "math": 11, "ukrMova": 12, "informatics": 10, "city": "Київ" },
+    { "id": 3, "lastName": "Бондаренко", "firstName": "Дмитро", "class": "9-Б", "math": 7, "ukrMova": 8, "informatics": 9, "city": "Львів" },
+    { "id": 4, "lastName": "Ткаченко", "firstName": "Анна", "class": "9-А", "math": 9, "ukrMova": 10, "informatics": 12, "city": "Одеса" },
+    { "id": 5, "lastName": "Мельник", "firstName": "Іван", "class": "9-Б", "math": 6, "ukrMova": 7, "informatics": 8, "city": "Харків" },
+    { "id": 6, "lastName": "Кравченко", "firstName": "Софія", "class": "9-В", "math": 12, "ukrMova": 11, "informatics": 11, "city": "Київ" },
+    { "id": 7, "lastName": "Олійник", "firstName": "Артем", "class": "9-Б", "math": 8, "ukrMova": 9, "informatics": 7, "city": "Дніпро" },
+    { "id": 8, "lastName": "Лисенко", "firstName": "Вікторія", "class": "9-В", "math": 10, "ukrMova": 11, "informatics": 10, "city": "Львів" },
+    { "id": 9, "lastName": "Поліщук", "firstName": "Максим", "class": "9-А", "math": 5, "ukrMova": 6, "informatics": 9, "city": "Одеса" },
+    { "id": 10, "lastName": "Гриценко", "firstName": "Олена", "class": "9-В", "math": 11, "ukrMova": 10, "informatics": 12, "city": "Харків" },
+    { "id": 11, "lastName": "Савченко", "firstName": "Богдан", "class": "9-Б", "math": 9, "ukrMova": 8, "informatics": 6, "city": "Дніпро" },
+    { "id": 12, "lastName": "Руденко", "firstName": "Катерина", "class": "9-А", "math": 12, "ukrMova": 12, "informatics": 11, "city": "Київ" },
+    { "id": 13, "lastName": "Левченко", "firstName": "Назар", "class": "9-В", "math": 7, "ukrMova": 9, "informatics": 10, "city": "Львів" },
+    { "id": 14, "lastName": "Марченко", "firstName": "Дарина", "class": "9-Б", "math": 10, "ukrMova": 11, "informatics": 9, "city": "Київ" },
+    { "id": 15, "lastName": "Петренко", "firstName": "Андрій", "class": "9-А", "math": 8, "ukrMova": 7, "informatics": 11, "city": "Одеса" }
+  ]
+}
